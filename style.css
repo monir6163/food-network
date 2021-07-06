@@ -5,28 +5,32 @@ body{
     display: flex;
     margin-bottom: 70px;
 }
-.menu ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-.menu ul li{
-    display: inline;
-    float: left;
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEF3EC;
     font-family: 'Montserrat', sans-serif;
 }
-.menu ul li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 134px;
-    text-decoration: none;
+.logo {
+    margin-left: 100px;
+    padding: 5px;
+    font-weight: 900;
+    cursor: pointer;
 }
-.menu ul li a:hover {
-    background-color: #111;
-  }
+.primary-color{
+    color: #FB964B;
+}
+.menu {
+    margin-right: 20px;
+}
+.menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
 .orange{
     color: #FB964B;
 }
@@ -38,7 +42,7 @@ body{
 .half-width h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 52px;
-    padding-top: 30%;
+    padding-top: 23%;
     color: #575757;
 }
 .half-width p {
@@ -150,6 +154,47 @@ body{
 .single-count p {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+}
+#contact {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+#contact h2, p, #form h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#form {
+    width: 700px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+#form input, #form textarea {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #d3cbcb;
+}
+  
+#form textarea {
+    height: 120px;
+}
+#form .submit-btn {
+    background: linear-gradient(to right,salmon, orange);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 10px;
+    border: 0px solid transparent;
+    margin-left: 20px;
+    cursor: pointer;
 }
 .footer-food{
     background-color: #0B0D17;
