@@ -20,6 +20,9 @@ body{
 .primary-color{
     color: #FB964B;
 }
+.secondary-color{
+    color: #707070;;
+}
 .menu {
     margin-right: 20px;
 }
