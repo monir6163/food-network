@@ -158,6 +158,16 @@ body{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+.delivery{
+    margin-left: 90px;
+    margin-right: 90px;
+    box-shadow: 10px 10px 40px #808080;
+    border-radius: 16px;
+    background-color: #fff; 
+}
+.single-delivery img{
+    width: 100%;
+}
 #contact {
     padding: 30px;
     margin-bottom: 30px;
